@@ -61,34 +61,3 @@ margin: auto;
     background: #ffebeb;
     border-color: #ff4a4a;
 }
-.reset-btn {
-    padding: 12px 24px;
-    font-size: 1.1rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: background-color 0.3s ease;
-}
-
-.reset-btn:hover {
-    background-color: #45a049;
-}
-.result-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
-.result-container {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.result-container .reset-btn {
-    margin-top: 20px;
-}

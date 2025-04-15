@@ -2,6 +2,7 @@
 import './Quiz.css'
 import {useRef, useState} from "react";
 import {data} from "../assets/data.js";
+import ResultCart from "./ResultCart.jsx";
 
 export default function Quiz(){
 
@@ -74,11 +75,7 @@ export default function Quiz(){
                 <button onClick={next}>Next</button>
                 <div className="index">{index+1} of {data.length} questions</div>
             </>}
-            {result && (
-                <div className="result-container">
-                    <h2>Your score is {score} out of {data.length}</h2>
-                    <button className="reset-btn" onClick={reset}>Reset</button>
-                </div>
+            {result && (<ResultCart score={score} length={data.length} reset={reset}/>
             )}
 
         </div>
