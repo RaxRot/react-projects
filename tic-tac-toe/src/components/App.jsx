@@ -1,6 +1,9 @@
+import TicTacToe from "./TicTacToe";
 
 function App() {
-    return <h1>Hello</h1>
+    return <div>
+        <TicTacToe/>
+    </div>
 }
 
 export default App
