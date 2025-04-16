@@ -42,3 +42,28 @@
     display: flex;
     margin: auto;
 }
+
+.boxes img{
+    margin: 30px;
+}
+.turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.turn-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.winner-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
