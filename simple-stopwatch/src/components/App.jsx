@@ -23,7 +23,7 @@ function App() {
   <div className="timer-info">
   <span>{"0" + Math.floor((time/60000)%60)}:</span>
    <span>{"0" + Math.floor((time/1000)%60)}:</span>
-   <span>{"0" + Math.floor((time/10)%100)}:</span>
+   <span>{"0" + Math.floor((time/10)%100)}</span>
   </div>
   <div className="buttons">
    {running?(
