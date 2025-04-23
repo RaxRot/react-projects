@@ -1,0 +1,19 @@
+body {
+    background: #1f1f2e;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff;
+}
+
+.todo-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
